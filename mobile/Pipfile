@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cython = "==0.24"
+kivy = "==1.10.0"
+pillow = "*"
+numpy = "*"
+buildozer = {git = "https://github.com/kivy/buildozer.git"}
+plyer = {git = "https://github.com/kivy/plyer.git"}
+pygments = "*"
+docutils = "*"
+pygame = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
